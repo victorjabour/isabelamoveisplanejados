@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO ===== -->
+  <title>Isabela Móveis Planejados — Ambientes que Inspiram</title>
+  <meta name="description" content="Móveis planejados sob medida com qualidade e design exclusivo. Cozinhas, dormitórios, salas, escritórios e muito mais. Solicite seu orçamento gratuito." />
+  <meta name="keywords"    content="móveis planejados, marcenaria, cozinha planejada, dormitório planejado, armários, Isabela Móveis, Guaratuba, Paraná, litoral do paraná" />
+
+  <!-- ===== FONTES (Google Fonts) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- ===== FOLHA DE ESTILOS ===== -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       BOTÃO WHATSAPP FLUTUANTE
+       Altere o número no href (formato: 5541999999999)
+  ============================================================ -->
+  <a
+    href="https://wa.me/5541999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+    class="whatsapp-fixo"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Falar pelo WhatsApp"
+  >
+    <!-- Ícone SVG do WhatsApp -->
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" size:"24px" width="24px" height="24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span>Fale Conosco</span>
+  </a>
+
+
+  <!-- ============================================================
+       HEADER & NAVEGAÇÃO
+  ============================================================ -->
+  <header id="header">
+    <div class="container">
+
+      <!-- Logo -->
+      <a href="#hero" class="logo">
+        <span class="logo-nome">Isabela Móveis</span>
+        <span class="logo-slogan">Planejados</span>
+      </a>
+
+      <!-- Navegação Desktop -->
+      <nav class="nav-desktop" aria-label="Menu principal">
+        <ul>
+          <li><a href="#sobre"      >Sobre</a></li>
+          <li><a href="#servicos"   >Serviços</a></li>
+          <li><a href="#portfolio"  >Portfólio</a></li>
+          <li><a href="#processo"   >Como Funciona</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato" class="btn-header">Solicitar Orçamento</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão Hamburguer (mobile) -->
+      <button class="btn-menu" id="btnMenu" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu Mobile -->
+  <nav class="nav-mobile" id="navMobile" aria-label="Menu mobile">
+    <button class="btn-fechar" id="btnFecharMenu" aria-label="Fechar menu">✕</button>
+    <a href="#sobre"       onclick="fecharMenu()">Sobre</a>
+    <a href="#servicos"    onclick="fecharMenu()">Serviços</a>
+    <a href="#portfolio"   onclick="fecharMenu()">Portfólio</a>
+    <a href="#processo"    onclick="fecharMenu()">Como Funciona</a>
+    <a href="#depoimentos" onclick="fecharMenu()">Depoimentos</a>
+    <a href="#contato"     onclick="fecharMenu()">Contato</a>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO — Banner Principal
+       Altere a imagem de fundo no arquivo style.css → .hero-bg
+  ============================================================ -->
+  <section id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-conteudo">
+        <p class="hero-rotulo">Móveis Planejados Sob Medida</p>
+        <h1>
+          Ambientes que<br>
+          <em>Inspiram</em> e Transformam<br>
+          a sua Casa
+        </h1>
+        <p>
+          Criamos espaços únicos com design exclusivo,
+          materiais de alta qualidade e acabamentos impecáveis,
+          pensados do início ao fim para o seu estilo de vida.
+        </p>
+        <div class="hero-acoes">
+          <a href="#contato" class="btn btn-primario">
+            Solicitar Orçamento Grátis →
+          </a>
+          <a href="#portfolio" class="btn btn-secundario">
+            Ver Portfólio
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Estatísticas -->
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-numero">+500</span>
+        <span class="stat-label">Projetos<br>Entregues</span>
+      </div>
+      <div class="stat">
+        <span class="stat-numero">12</span>
+        <span class="stat-label">Anos de<br>Experiência</span>
+      </div>
+      <div class="stat">
+        <span class="stat-numero">98%</span>
+        <span class="stat-label">Clientes<br>Satisfeitos</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SOBRE NÓS
+  ============================================================ -->
+  <section id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+
+        <!-- Bloco de Imagens -->
+        <div class="sobre-imagens animar-entrada">
+          <!-- Troque os URLs pelas fotos reais da empresa -->
+          <img
+            src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800&q=80"
+            alt="Cozinha planejada Isabela Móveis"
+            class="sobre-img-principal"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=600&q=80"
+            alt="Detalhe de marcenaria"
+            class="sobre-img-secundaria"
+          />
+          <!-- Crachá de anos de experiência -->
+          <div class="sobre-badge">
+            <strong>12</strong>
+            <span>anos de experiência</span>
+          </div>
+        </div>
+
+        <!-- Texto -->
+        <div class="sobre-texto animar-entrada animar-delay-2">
+          <span class="rotulo">Quem Somos</span>
+          <h2>Paixão por Design e Qualidade em Cada Detalhe</h2>
+          <p style="color:#FFF;">
+            A Isabela Móveis Planejados nasceu do sonho de transformar ambientes
+            com qualidade artesanal e tecnologia moderna. Desde 2012, atendemos
+            famílias e empresas com projetos sob medida, criando espaços funcionais
+            e cheios de personalidade.
+          </p>
+          <p style="color:#FFF;">
+            Nossa equipe de designers e marceneiros une criatividade e precisão
+            para entregar móveis que combinam estética, durabilidade e praticidade —
+            tudo pensado especialmente para você.
+          </p>
+
+          <ul class="sobre-lista">
+            <li style="color:#FFF;">Projeto 3D gratuito para visualização antes da produção</li>
+            <li style="color:#FFF;">Materiais certificados com garantia de qualidade</li>
+            <li style="color:#FFF;">Equipe especializada de instalação e pós-venda</li>
+            <li style="color:#FFF;">Prazo de entrega cumprido em 100% dos projetos</li>
+            <li style="color:#FFF;">Atendimento personalizado do início ao fim</li>
+          </ul>
+
+          <a href="#contato" class="btn btn-escuro">
+            Conheça Nossa História →
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SERVIÇOS
+  ============================================================ -->
+  <section id="servicos">
+    <div class="container">
+      <div class="cabecalho-secao animar-entrada">
+        <span class="rotulo">O Que Fazemos</span>
+        <h2>Soluções para Cada Ambiente</h2>
+        <p>
+          Criamos móveis planejados para todos os cômodos da sua casa ou empresa,
+          sempre com design exclusivo e acabamento impecável.
+        </p>
+        <span class="linha-dourada"></span>
+      </div>
+
+      <div class="servicos-grid">
+
+        <!-- Card 1 — Cozinha -->
+        <article class="card-servico animar-entrada animar-delay-1">
+          <div class="card-servico-img-wrapper">
+            <!-- Troque pela imagem real do ambiente -->
+            <img
+              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80"
+              alt="Cozinha Planejada"
+              class="card-servico-img"
+            />
+            <span class="card-tag">Mais Popular</span>
+          </div>
+          <div class="card-servico-corpo">
+            <span class="card-servico-icone">🍳</span>
+            <h3>Cozinhas Planejadas</h3>
+            <p>
+              Cozinhas funcionais com aproveitamento máximo do espaço,
+              praticidade no dia a dia e design moderno ou clássico.
+            </p>
+            <a href="#contato" class="card-servico-link">Solicitar Projeto →</a>
+          </div>
+        </article>
+
+        <!-- Card 2 — Dormitório -->
+        <article class="card-servico animar-entrada animar-delay-2">
+          <div class="card-servico-img-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=700&q=80"
+              alt="Dormitório Planejado"
+              class="card-servico-img"
+            />
+          </div>
+          <div class="card-servico-corpo">
+            <span class="card-servico-icone">🛏️</span>
+            <h3>Dormitórios</h3>
+            <p>
+              Guarda-roupas, painéis, criados-mudos e cabeceiras integrados
+              para criar o quarto dos seus sonhos.
+            </p>
+            <a href="#contato" class="card-servico-link">Solicitar Projeto →</a>
+          </div>
+        </article>
+
+        <!-- Card 3 — Sala -->
+        <article class="card-servico animar-entrada animar-delay-3">
+          <div class="card-servico-img-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=700&q=80"
+              alt="Sala de Estar Planejada"
+              class="card-servico-img"
+            />
+          </div>
+          <div class="card-servico-corpo">
+            <span class="card-servico-icone">🛋️</span>
+            <h3>Salas de Estar e TV</h3>
+            <p>
+              Painéis, estantes, racks e buffets desenhados para dar
+              personalidade e harmonia ao seu espaço de convívio.
+            </p>
+            <a href="#contato" class="card-servico-link">Solicitar Projeto →</a>
+          </div>
+        </article>
+
+        <!-- Card 4 — Escritório -->
+        <article class="card-servico animar-entrada animar-delay-1">
+          <div class="card-servico-img-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=700&q=80"
+              alt="Home Office Planejado"
+              class="card-servico-img"
+            />
+          </div>
+          <div class="card-servico-corpo">
+            <span class="card-servico-icone">💼</span>
+            <h3>Home Office & Escritórios</h3>
+            <p>
+              Bancadas, estantes e armários que aumentam a produtividade
+              com organização e conforto ergonômico.
+            </p>
+            <a href="#contato" class="card-servico-link">Solicitar Projeto →</a>
+          </div>
+        </article>
+
+        <!-- Card 5 — Banheiro -->
+        <article class="card-servico animar-entrada animar-delay-2">
+          <div class="card-servico-img-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=700&q=80"
+              alt="Banheiro Planejado"
+              class="card-servico-img"
+            />
+          </div>
+          <div class="card-servico-corpo">
+            <span class="card-servico-icone">🚿</span>
+            <h3>Banheiros & Lavabos</h3>
+            <p>
+              Gabinetes e armários para banheiro com acabamento impermeável,
+              beleza e praticidade no cotidiano.
+            </p>
+            <a href="#contato" class="card-servico-link">Solicitar Projeto →</a>
+          </div>
+        </article>
+
+        <!-- Card 6 — Comercial -->
+        <article class="card-servico animar-entrada animar-delay-3">
+          <div class="card-servico-img-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80"
+              alt="Móveis Comerciais"
+              class="card-servico-img"
+            />
+          </div>
+          <div class="card-servico-corpo">
+            <span class="card-servico-icone">🏢</span>
+            <h3>Ambientes Comerciais</h3>
+            <p>
+              Mobiliário corporativo para lojas, clínicas, restaurantes e
+              escritórios com identidade visual da sua marca.
+            </p>
+            <a href="#contato" class="card-servico-link">Solicitar Projeto →</a>
+          </div>
+        </article>
+
+      </div><!-- .servicos-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PORTFÓLIO
+  ============================================================ -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="cabecalho-secao animar-entrada">
+        <span class="rotulo">Nosso Trabalho</span>
+        <h2>Projetos que Encantam</h2>
+        <p>Cada projeto é único. Conheça alguns ambientes que transformamos.</p>
+        <span class="linha-dourada"></span>
+      </div>
+
+      <!-- Filtros -->
+      <div class="portfolio-filtros">
+        <button class="btn-filtro ativo" data-filtro="todos">Todos</button>
+        <button class="btn-filtro" data-filtro="cozinha">Cozinhas</button>
+        <button class="btn-filtro" data-filtro="dormitorio">Dormitórios</button>
+        <button class="btn-filtro" data-filtro="sala">Salas</button>
+        <button class="btn-filtro" data-filtro="escritorio">Escritórios</button>
+      </div>
+
+      <!-- Grade de Imagens -->
+      <!-- Troque os src pelas fotos reais dos projetos -->
+      <div class="portfolio-grade">
+
+        <div class="portfolio-item destaque" data-categoria="cozinha">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80" alt="Cozinha moderna branca" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-info">
+              <h4>Cozinha Contemporânea</h4>
+              <span>Cozinha · São José dos Pinhais</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-categoria="dormitorio">
+          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=600&q=80" alt="Quarto planejado" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-info">
+              <h4>Quarto Casal Luxo</h4>
+              <span>Dormitório · Curitiba</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-categoria="sala">
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" alt="Sala planejada" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-info">
+              <h4>Sala com Painel TV</h4>
+              <span>Sala · Guaratuba</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-categoria="escritorio">
+          <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80" alt="Home office" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-info">
+              <h4>Home Office Completo</h4>
+              <span>Escritório · Matinhos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-categoria="dormitorio">
+          <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80" alt="Dormitório planejado infantil" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-info">
+              <h4>Dormitório Infantil</h4>
+              <span>Dormitório · Paranaguá</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-categoria="cozinha">
+          <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=600&q=80" alt="Cozinha rústica" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-info">
+              <h4>Cozinha Rústica</h4>
+              <span>Cozinha · Pontal do Paraná</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- .portfolio-grade -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROCESSO — COMO FUNCIONA
+  ============================================================ -->
+  <section id="processo">
+    <div class="container">
+      <div class="cabecalho-secao animar-entrada">
+        <span class="rotulo">Como Trabalhamos</span>
+        <h2>Do Sonho à Realidade em 4 Etapas</h2>
+        <p style="color: rgba(255,255,255,0.65)">
+          Nosso processo é simples, transparente e pensado para garantir
+          a melhor experiência para você.
+        </p>
+        <span class="linha-dourada"></span>
+      </div>
+
+      <div class="processo-steps">
+
+        <div class="step animar-entrada animar-delay-1">
+          <div class="step-numero">01</div>
+          <h3>Visita & Medição</h3>
+          <p>
+            Agendamos uma visita gratuita ao seu espaço para
+            conversar sobre suas necessidades e fazer as medições.
+          </p>
+        </div>
+
+        <div class="step animar-entrada animar-delay-2">
+          <div class="step-numero">02</div>
+          <h3>Projeto 3D</h3>
+          <p>
+            Desenvolvemos uma apresentação 3D realista para você
+            visualizar cada detalhe antes de aprovar.
+          </p>
+        </div>
+
+        <div class="step animar-entrada animar-delay-3">
+          <div class="step-numero">03</div>
+          <h3>Produção</h3>
+          <p>
+            Com projeto aprovado, iniciamos a fabricação com
+            materiais de alta qualidade em nossa marcenaria.
+          </p>
+        </div>
+
+        <div class="step animar-entrada animar-delay-4">
+          <div class="step-numero">04</div>
+          <h3>Instalação & Entrega</h3>
+          <p>
+            Nossa equipe realiza a instalação com cuidado e precisão,
+            garantindo acabamento perfeito até o último parafuso.
+          </p>
+        </div>
+
+      </div><!-- .processo-steps -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       DEPOIMENTOS
+  ============================================================ -->
+  <section id="depoimentos">
+    <div class="container">
+      <div class="cabecalho-secao animar-entrada">
+        <span class="rotulo">O Que Dizem Sobre Nós</span>
+        <h2>Clientes Que Confiam na Isabela</h2>
+        <p>Mais de 500 famílias e empresas transformaram seus lares e negócios com a gente.</p>
+        <span class="linha-dourada"></span>
+      </div>
+
+      <div class="depoimentos-grade">
+
+        <!-- Depoimento 1 -->
+        <div class="card-depoimento animar-entrada animar-delay-1">
+          <div class="estrelas" aria-label="5 de 5 estrelas">★★★★★</div>
+          <p>
+            "Fiz um móvel um painel para Tv e armário embaixo da minha escada em 
+            minha casa e ficou perfeito, bem do jeito que eu queria. Super indico, 
+            pois o atendimento e o pós venda foi muito bom. Quero voltar a fazer novos 
+            móveis com a Ju pois ela foi muito atenciosa."
+          </p>
+          <div class="depoimento-autor">
+            <!-- Troque pela foto real ou use iniciais -->
+            <img
+              src="https://lh3.googleusercontent.com/a-/ALV-UjVo4sPSYo60XxfgVyINHQ1wDo2Rdh0WwOABYK19-xkXiSjKkOtcUQ=w45-h45-p-rp-mo-ba4-br100"
+              alt="Foto de IMOBILIÁRIA KEY"
+              class="depoimento-autor-avatar"
+            />
+            <div class="depoimento-autor-info">
+              <strong>IMOBILIÁRIA KEY</strong>
+              <span>Painel e Armário — Curitiba</span>
+              <br>
+              <a href="https://maps.app.goo.gl/k6AX7xsQeDZsr1fB9" target="_blank" rel="noopener noreferrer" style="color: #ABC; font-size: 12px; text-decoration: underline;">Link da Avaliação - Google</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 2 -->
+        <div class="card-depoimento animar-entrada animar-delay-2">
+          <div class="estrelas" aria-label="5 de 5 estrelas">★★★★★</div>
+          <p>
+            "Atendimento atencioso desde o inicio do projeto. Entrega no prazo e 
+            pagamento flexível. Material de elevado qualidade. Sensacional, perfeito. 
+            Obrigada por contribuírem com nosso sonho!"
+          </p>
+          <div class="depoimento-autor">
+            <img
+              src="https://lh3.googleusercontent.com/a/ACg8ocKfJi-yefADvyWAtrBXEySs5vH_PfNiPKUGYUhc7cRAm81cXw=w45-h45-p-rp-mo-br100"
+              alt="Foto de Ranalli Advocacia"
+              class="depoimento-autor-avatar"
+            />
+            <div class="depoimento-autor-info">
+              <strong>Ranalli Advocacia</strong>
+              <span>Sala de estar e Cozinha — Guaratuba</span>
+              <br>
+              <a href="https://maps.app.goo.gl/hauJPp6bWD2u9Kq36" target="_blank" rel="noopener noreferrer" style="color: #ABC; font-size: 12px; text-decoration: underline;">Link da Avaliação - Google</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 3 -->
+        <div class="card-depoimento animar-entrada animar-delay-3">
+          <div class="estrelas" aria-label="5 de 5 estrelas">★★★★★</div>
+          <p>
+            "Atendimento excepcional, material e mão de obra de primeira linha, 
+            cumpridores dos prazos contratados, flexíveis nas negociações. Gostei 
+            muito do trabalho da Equipe e com atenção especial a senhora Jussane 
+            que acompanhou tudo do começo ao final. Fiquei satisfeito, vou voltar 
+            a fazer negócios com vcs."
+          </p>
+          <div class="depoimento-autor">
+            <img
+              src="https://lh3.googleusercontent.com/a/ACg8ocLmxEyYZsTPQS9genDiq42ovxXFJ2E71zJGHOgd96wcRUPpzg=w45-h45-p-rp-mo-br100"
+              alt="Foto de Cesar Roberto Pontes"
+              class="depoimento-autor-avatar"
+            />
+            <div class="depoimento-autor-info">
+              <strong>Cesar Roberto Pontes</strong>
+              <span>Cozinha Planejada — Guaratuba</span>
+              <br>
+                        <a href="https://maps.app.goo.gl/Wz6w3AQdFPcq9SKv9" target="_blank" rel="noopener noreferrer" style="color: #ABC; font-size: 12px; text-decoration: underline;">Link da Avaliação - Google</a>
+
+            </div>
+          </div>
+        </div>
+
+      </div><!-- .depoimentos-grade -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTATO
+  ============================================================ -->
+  <section id="contato">
+    <div class="container">
+      <div class="contato-grid">
+
+        <!-- Informações de Contato -->
+        <div class="contato-info">
+          <span class="rotulo" style="font-size:0.75rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--cor-acento);display:block;margin-bottom:0.8rem;">Fale Conosco</span>
+          <h2>Solicite seu Orçamento Gratuito</h2>
+          <p style="color: #ABC;">
+            Sem compromisso. Nossa equipe entra em contato em até
+            24 horas para agendar uma visita e conversar sobre seu projeto.
+          </p>
+
+          <div class="contato-canais">
+
+            <div class="canal">
+              <span class="canal-icone">📍</span>
+              <div>
+                <strong style="text-decoration: underline;">Endereço</strong>
+                <!-- Atualize com o endereço real -->
+                <span style="color: #ABC;">Rua das Araucárias, 776 — Cohapar<br>Guaratuba – PR, CEP 83280-000</span>
+              </div>
+            </div>
+
+            <div class="canal">
+              <span class="canal-icone">📞</span>
+              <div>
+                <strong style="text-decoration: underline;">Telefone / WhatsApp</strong>
+                <!-- Atualize com o telefone real -->
+                <a href="tel:+5541992417566" style="color: #ABC;">(41) 99241-7566</a>
+              </div>
+            </div>
+
+            <div class="canal">
+              <span class="canal-icone">✉️</span>
+              <div>
+                <strong style="text-decoration: underline;">E-mail</strong>
+                <!-- Atualize com o e-mail real -->
+                <a href="mailto:contato@isabelamoveisplanejados.com.br" style="color: #ABC;">contato@isabelamoveisplanejados.com.br</a>
+              </div>
+            </div>
+
+            <div class="canal">
+              <span class="canal-icone">📸</span>
+              <div>
+                <strong style="text-decoration: underline;">Instagram</strong>
+                <a href="https://www.instagram.com/moveisplanejadosisabela/" target="_blank" rel="noopener" style="color: #ABC;">@moveisplanejadosisabela</a>
+              </div>
+            </div>
+
+          </div><!-- .contato-canais -->
+
+          <!-- Horário -->
+          <div class="horario-box">
+            <h4>🕐 Horário de Atendimento</h4>
+            <p><strong>Segunda a Sexta:</strong> 8h às 18h</p>
+            <p><strong>Sábado:</strong> 8h às 12h</p>
+            <p style="font-size:0.8rem;margin-top:0.6rem;color:var(--cor-texto-suave)">
+              Domingo e feriados: fechado
+            </p>
+          </div>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <div class="contato-form">
+          <h3>Envie uma Mensagem</h3>
+
+          <!-- Mensagem de Sucesso (exibida via JS após envio) -->
+          <div class="form-sucesso" id="formSucesso">
+            <div class="icone">🎉</div>
+            <h3>Mensagem Enviada!</h3>
+            <p>Obrigado pelo contato! Retornaremos em até 24 horas.</p>
+          </div>
+
+          <!-- Formulário
+               Para funcionar de verdade, integre com um serviço como
+               Formspree (action="https://formspree.io/f/SEU_ID")
+               ou envio via PHP/backend próprio.
+
+               action integrado com javascript no final do form para enviar wwp
+          -->
+          <form id="formContato" onsubmit="enviarWhatsApp(event)" novalidate>
+
+            <div class="form-linha">
+              <div class="form-grupo">
+                <label for="nome">Nome Completo *</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Ex: Maria Silva"
+                  required
+                />
+              </div>
+              <div class="form-grupo">
+                <label for="telefone">WhatsApp *</label>
+                <input
+                  type="tel"
+                  id="telefone"
+                  name="telefone"
+                  placeholder="(41) 99999-9999"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-grupo">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seuemail@exemplo.com"
+              />
+            </div>
+
+            <div class="form-grupo">
+              <label for="ambiente">Ambiente de Interesse *</label>
+              <select id="ambiente" name="ambiente" required>
+                <option value="" disabled selected>Selecione o ambiente...</option>
+                <option value="cozinha">Cozinha Planejada</option>
+                <option value="dormitorio">Dormitório / Quarto</option>
+                <option value="sala">Sala de Estar / TV</option>
+                <option value="escritorio">Home Office / Escritório</option>
+                <option value="banheiro">Banheiro / Lavabo</option>
+                <option value="comercial">Ambiente Comercial</option>
+                <option value="outros">Outros Ambientes</option>
+              </select>
+            </div>
+
+            <div class="form-grupo">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                placeholder="Conte um pouco sobre seu projeto: tamanho do espaço, estilo desejado, prazo..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primario" style="width:100%;justify-content:center;">
+              Enviar Mensagem →
+            </button>
+            <p class="form-nota">
+              🔒 Seus dados estão seguros. Não compartilhamos com terceiros.
+            </p>
+
+<!-- ============================================================
+       Script para enviar o formulário preenchido para o whatsapp via javascript
+  ============================================================ -->
+         <!--   <script>
+function enviarWhatsApp(event) {
+    event.preventDefault(); // Impede o envio padrão do formulário
+    
+    let nome = document.getElementById('nome').value;
+    let telefone = document.getElementById('telefone').value;
+    let email = document.getElementById('email').value;
+    let ambiente = document.getElementById('ambiente').value;
+    let mensagem = document.getElementById('mensagem').value;
+    let numeroWhatsApp = "5541992417566"; // Seu número 5541992417566
+    
+    let mensagem = `Olá, meu nome é ${nome}. Telefone: ${telefone}`;
+    let url = `https://wa.me/${5541992417566}?text=${encodeURIComponent(mensagem)}`;
+    
+    window.open(url, '_blank');  
+} -->
+</script>
+
+          </form>
+        </div><!-- .contato-form -->
+
+      </div><!-- .contato-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grade">
+
+        <!-- Coluna Marca -->
+        <div class="footer-marca">
+          <span class="logo-nome">Isabela Móveis</span>
+          <span class="logo-slogan">Planejados</span>
+          <p>
+            Transformamos ambientes com design exclusivo, qualidade de
+            ponta e atendimento que vai além da sua expectativa.
+          </p>
+          <!-- Redes Sociais — atualize os links -->
+          <div class="redes-sociais">
+            <a href="https://www.instagram.com/moveisplanejadosisabela/" target="_blank" rel="noopener" class="rede-social" aria-label="Instagram">
+              📸
+            </a>
+            <a href="https://www.facebook.com/isabelamoveisplanejados" target="_blank" rel="noopener" class="rede-social" aria-label="Facebook">
+              f
+            </a>
+            <a href="https://wa.me/5541992417566" target="_blank" rel="noopener" class="rede-social" aria-label="WhatsApp">
+              💬
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna Links Rápidos -->
+        <div class="footer-coluna">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#processo">Como Funciona</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna Serviços -->
+        <div class="footer-coluna">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#servicos">Cozinhas Planejadas</a></li>
+            <li><a href="#servicos">Dormitórios</a></li>
+            <li><a href="#servicos">Salas de Estar</a></li>
+            <li><a href="#servicos">Home Office</a></li>
+            <li><a href="#servicos">Banheiros</a></li>
+            <li><a href="#servicos">Ambientes Comerciais</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna Contato Rápido -->
+        <div class="footer-coluna">
+          <h4>Contato</h4>
+          <ul>
+            <!-- Atualize com informações reais -->
+            <li><a href="tel:+5541992417566">(41) 99241-7566</a></li>
+            <li><a href="mailto:contato@isabelamoveis.com.br">contato@isabelamoveis.com.br</a></li>
+            <li><a href="#">Rua das Araucárias, 776</a></li>
+            <li><a href="#">Guaratuba – PR</a></li>
+          </ul>
+        </div>
+
+      </div><!-- .footer-grade -->
+
+      <!-- Rodapé inferior -->
+      <div class="footer-rodape">
+        <p>© 2025 Isabela Móveis Planejados. Todos os direitos reservados.</p>
+        <p>Desenvolvido com ♥ para transformar ambientes</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       JAVASCRIPT
+  ============================================================ -->
+  <script>
+    /* ============================================================
+       1. HEADER — Muda estilo ao rolar a página
+    ============================================================ */
+    const header = document.getElementById('header');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+
+    /* ============================================================
+       2. MENU MOBILE — Abre e fecha
+    ============================================================ */
+    const btnMenu      = document.getElementById('btnMenu');
+    const navMobile    = document.getElementById('navMobile');
+    const btnFecharMenu = document.getElementById('btnFecharMenu');
+
+    function abrirMenu() {
+      navMobile.classList.add('aberto');
+      btnMenu.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden'; // evita scroll ao fundo
+    }
+
+    function fecharMenu() {
+      navMobile.classList.remove('aberto');
+      btnMenu.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    btnMenu.addEventListener('click', abrirMenu);
+    btnFecharMenu.addEventListener('click', fecharMenu);
+
+
+    /* ============================================================
+       3. ANIMAÇÕES DE ENTRADA — Intersection Observer
+       Elementos com classe .animar-entrada surgem ao entrar na tela
+    ============================================================ */
+    const elementosAnimados = document.querySelectorAll('.animar-entrada');
+
+    const observador = new IntersectionObserver((entradas) => {
+      entradas.forEach(entrada => {
+        if (entrada.isIntersecting) {
+          entrada.target.classList.add('visivel');
+          observador.unobserve(entrada.target); // anima só uma vez
+        }
+      });
+    }, {
+      threshold: 0.12,
+      rootMargin: '0px 0px -40px 0px'
+    });
+
+    elementosAnimados.forEach(el => observador.observe(el));
+
+
+    /* ============================================================
+       4. PORTFÓLIO — Filtro por categoria
+    ============================================================ */
+    const btnsFiltro      = document.querySelectorAll('.btn-filtro');
+    const itensPortfolio  = document.querySelectorAll('.portfolio-item');
+
+    btnsFiltro.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Atualiza botão ativo
+        btnsFiltro.forEach(b => b.classList.remove('ativo'));
+        btn.classList.add('ativo');
+
+        const filtro = btn.dataset.filtro;
+
+        itensPortfolio.forEach(item => {
+          if (filtro === 'todos' || item.dataset.categoria === filtro) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+
+    /* ============================================================
+       5. FORMULÁRIO DE CONTATO — Simulação de envio
+       Para envio real, substitua a lógica pelo fetch/POST adequado
+       Ex.: Formspree, EmailJS, ou API própria
+    ============================================================ */
+    const formContato = document.getElementById('formContato');
+    const formSucesso = document.getElementById('formSucesso');
+
+    if (formContato) {
+      formContato.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        // Validação básica
+        const nome     = document.getElementById('nome').value.trim();
+        const telefone = document.getElementById('telefone').value.trim();
+        const ambiente = document.getElementById('ambiente').value;
+
+        if (!nome || !telefone || !ambiente) {
+          alert('Por favor, preencha os campos obrigatórios (nome, telefone e ambiente).');
+          return;
+        }
+
+        // Simula envio (substitua pelo código real)
+        const btnEnviar = formContato.querySelector('button[type="submit"]');
+        btnEnviar.textContent = 'Enviando...';
+        btnEnviar.disabled = true;
+
+        setTimeout(() => {
+          formContato.style.display = 'none';
+          formSucesso.style.display  = 'block';
+        }, 1200);
+
+        /* ----- EXEMPLO COM FORMSPREE -----
+           Descomente e configure o action no <form> para usar:
+
+           fetch('https://formspree.io/f/SEU_ID', {
+             method: 'POST',
+             body: new FormData(formContato),
+             headers: { 'Accept': 'application/json' }
+           })
+           .then(res => {
+             if (res.ok) {
+               formContato.style.display = 'none';
+               formSucesso.style.display = 'block';
+             } else {
+               alert('Erro ao enviar. Tente novamente.');
+               btnEnviar.textContent = 'Enviar Mensagem →';
+               btnEnviar.disabled = false;
+             }
+           })
+           .catch(() => alert('Erro de conexão. Tente novamente.'));
+        */
+      });
+    }
+
+
+    /* ============================================================
+       6. LINK ATIVO NA NAVEGAÇÃO — Destaca o menu ao rolar
+    ============================================================ */
+    const secoes  = document.querySelectorAll('section[id]');
+    const linksNav = document.querySelectorAll('.nav-desktop a[href^="#"]');
+
+    window.addEventListener('scroll', () => {
+      let atual = '';
+      secoes.forEach(secao => {
+        const topo = secao.offsetTop - 100;
+        if (window.scrollY >= topo) {
+          atual = secao.getAttribute('id');
+        }
+      });
+
+      linksNav.forEach(link => {
+        link.classList.remove('ativo');
+        if (link.getAttribute('href') === `#${atual}`) {
+          link.classList.add('ativo');
+        }
+      });
+    });
+
+  </script>
+
+</body>
+</html>
